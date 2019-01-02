@@ -2,7 +2,7 @@
 Starting with the NQ1000-II-USER-V0.016 version, Nquire1000 will contain a pair of default public and private keys for SSH connections. <br>
 Your computer can connect to Nquire1000 via SSH by using the private key.
 <br>
-# How to connect Nquire1000 by using SSH(Windows10 OS example):
+##  How to connect Nquire1000 by using SSH(Windows10 OS example):
 ①	Copy the private key file to the .ssh folder of your PC.The default path of .ssh folder will be “C:\Users\dell\.ssh”<br>
 ※If there is still no .ssh folder in your PC,you may use “ssh-keygen -t rsa”command to create a default one and also it will create a pair of default keys what you should not use.<br>
 
@@ -14,7 +14,7 @@ Your computer can connect to Nquire1000 via SSH by using the private key.
  
 
  
-# How to change Nquire1000’s public key<br>
+##  How to change Nquire1000’s public key<br>
 If you are an android developer you can send the following broadcast to change Nquire1000’s public key.<br>
 Intent intent = new Intent();  <br>
 intent.putExtra("secretkey", public key String);<br>
